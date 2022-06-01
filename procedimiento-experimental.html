@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+		
+		<title>Introducción a Ciencias</title>
+
+		<!-- Loading third party fonts -->
+		<link href="http://fonts.googleapis.com/css?family=Roboto:300,400,700|" rel="stylesheet" type="text/css">
+		<link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+		<!-- Loading main css file -->
+		<link rel="stylesheet" href="style.css">
+		
+		<!--[if lt IE 9]>
+		<script src="js/ie-support/html5.js"></script>
+		<script src="js/ie-support/respond.js"></script>
+		<![endif]-->
+
+	</head>
+
+
+	<body>
+		
+		<div class="site-content">
+			<header class="site-header" data-bg-image="">
+				<div class="container">
+					<div class="header-bar">
+						<a href="index.html" class="branding">
+							<img src="images/udd.png" alt="" class="logo" height="30px">
+							<div class="logo-type">
+								<h1 class="site-title">Introducción a Ciencias</h1>
+								<small class="site-description"> Preexamen</small>
+							</div>
+						</a>
+
+						<nav class="main-navigation">
+							<button class="menu-toggle"><i class="fa fa-bars"></i></button>
+							<ul class="menu">
+								
+								<li class="menu-item"><a href="procedimiento-experimental.html">Procedimiento experimental</a></li>
+								<li class="menu-item"><a href="#">Link descativado</a></li>
+								<li class="menu-item current-menu-item"><a href="#">Link desactivado</a></li>
+								<li class="menu-item"><a href="#">Link desactivado</a></li>
+							</ul>
+						</nav>
+
+						<div class="mobile-navigation"></div>
+					</div>
+				</div>
+			</header>
+
+			<div class="page-head" data-bg-image="images/slides/experimento.jpg">
+				<div class="container">
+					<h2 class="page-title">Procedimiento Experimental</h2>
+					<small>En este proyecto de ciencia genética y genómica, se usará BLAST para medir 
+						la calidad de la coincidencias entre cepas utilizadas en vacunas y "salvajes"
+						y, así, estimar la efectividad de una vacuna contra diferentes virus</small>
+				</div>
+			</div>
+
+			<main class="main-content">
+				<div class="fullwidth-block">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12">
+								<h2 class="section-title">Pasos</h2>
+								<ol class="circle">
+									<li>
+										<h3>Elegir una temporada de Influenza</h3>
+										<p>
+											De la <a href="https://www.notion.so/a505baeda63e4746989f2329431838b1?v=4c9d709733ae48c3b6f162637c7e149d" target="_blank">tabla 1</a>, elegir una de las temporadas disponibles. Si se desea una temporada 
+											más actualizada haga <a href="https://www.cdc.gov/flu/season/past-flu-seasons.htm" target="_blank">clic aquí</a> y elija una.
+										</p>
+										<p><img src='images/tabla influenza temporadas.jpg' width="70%"/></p>
+										<br>
+									</li>
+									<li>
+										<h3>Conseguir información sobre la proteína viral </h3>
+										<p>Ingresar la notación de la cepa en <a href="https://www.ncbi.nlm.nih.gov/genbank/" target="_blank">
+											NCBI GenBank </a> y elegir la opción <strong>protein</strong> en el cuadro superior izquierdo.
+											Luego, ingresar la notación de la cepa a buscar y hacer clic en <strong>search</strong>
+										</p>
+											<img src="images/figuras/figura1.jpg" width="70%"/>
+										<p>
+											<br>Buscar en el listado la información respecto a la <strong>Hemaglutitina</strong> ("hemagglutinin") 
+										</p>
+										<p align="justify">
+											<img src="images/figuras/figura2.jpg" width="35%" align="left"/> 
+											<br>i.	Por ejemplo, para la cepa A / California / 07/2009, el resultado deseado aparece como "hemaglutinina 
+											[virus de la Influenza A (A / California / 07/2009 (H1N1))]]" y en la línea siguiente dice "566 aa 
+											protein ", lo que significa que esta proteína contiene 566 aminoácidos. 
+											<br><br>No seleccionen un resultado que diga "parcial" en su título, ya que esta no es la proteína completa. 
+											<br><br>ii.	Si no hay datos sobre la proteína hemaglutinina para esta cepa (la proteína no figura en los 
+											resultados), omitan esta cepa. Comiencen el paso nuevamente usando una variedad común diferente de su 
+											tabla de datos.
+										</p>
+										<p>Hacer este mismo procedimiento para ambas cepas (vacuna y "salvaje")</p>
+										<br>
+
+									</li>
+									<li>
+										<h3>Comparar secuencias proteicas</h3>
+										<p>
+											<img src='images/figuras/figura3.jpg' width="25%" align="left"/>
+											· "Ejecutar BLAST" (columna en el lado derecho de la página web, en la parte superior).
+											<br>· Seleccionar "Alinear dos o más secuencias". 
+											<br>· La base de datos debe configurarse automáticamente para usar el algoritmo "blastp". 
+											<br>· Registrar el porcentaje que es idéntico entre las dos secuencias. 
+										</p>
+										<br><br><br>
+									</li>
+									<li>
+										<h3>Repetir el procedimiento anterior</h3>
+										<p>
+											· Para la proteína neuraminidasa
+											<br>· Para 4 temporadas más
+										</p>
+										<br><br>
+									</li>
+									<li>
+										<h3>Responda</h3>
+										<p>
+											· ¿Se aprecia alguna tendencia? 
+											<br>· En general, ¿qué tan similares son las secuencias de proteínas de hemaglutinina y neuraminidasa en las cepas comunes de influenza al mismo tipo de virus de influenza que se usó en la vacunación para esa temporada? 
+											<br>· Basado en cuán similares son las secuencias, ¿qué tan bien creen que la vacuna protegió a una persona vacunada de las diferentes cepas en una temporada dada? 
+											<br>· ¿Qué tan bien parece que una vacuna contra la influenza de un año protegerá a una persona contra las cepas comunes de influenza uno, dos, tres o más años después? 
+											<br>· ¿Se aprecian otras tendencias en sus datos? 
+										</p>
+										<br>
+									</li>
+								</ol>
+							</div>
+						</div> <!-- .row -->
+					</div> <!-- .container -->		
+				</div> <!-- .fullwidth-block -->
+
+				<div class="fullwidth-block" data-bg-color="#edf2f4">
+					<div class="container">
+						<h2 class="section-title"><strong>Resultados</strong></h2>
+						<p>
+							Para realizar el procedimiento experimental se han elegido las temporadas
+							<br>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;octubre 2006 - mayo 2007
+							<br>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;octubre 2007 - mayo 2008
+							<br>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;octubre 2008 - mayo 2009
+							<br>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;octubre 2009 - mayo 2010
+							<br>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;octubre 2010 - mayo 2011
+						</p>
+					</div> <!-- .container -->
+				</div>
+
+				<div class="fullwidth-block">
+					<div class="container">
+						<p><h2>1. Tablas de temporadas elegidas</h2></p>
+						<div class="row">
+							<div class="col-md-12">
+
+								<div class="checked-box">
+									<h3>Temporada octubre 2006 - mayo 2007</h3>
+									<table>
+											<thead align="center">
+												<tr>
+												  <th scope="col">&nbsp;&nbsp;&nbsp;Tipo de Influenza&nbsp;&nbsp;&nbsp;</th>
+												  <th scope="col">&nbsp;&nbsp;&nbsp;Subtipo de Influenza&nbsp;&nbsp;&nbsp;</th>
+												  <th scope="col">&nbsp;&nbsp;&nbsp;Cepa de influenza Vacuna&nbsp;&nbsp;&nbsp;</th>
+												  <th scope="col">&nbsp;&nbsp;&nbsp;Porcentaje de coincidencia H&nbsp;&nbsp;&nbsp;</th>
+												  <th scope="col">&nbsp;&nbsp;&nbsp;Porcentaje de coincidencia N&nbsp;&nbsp;&nbsp;</th>
+												</tr>
+											  </thead>
+											  <tbody align="center">
+												  <tr>
+													<td>A (H1N1)</td>
+													<td>A/New Caledonia/20/99</td>
+													<td>A/New Caledonia/20/99</td>
+													<td>100%</td>
+													<td>100%</td>
+												  </tr>
+												  <tr>
+													<td>A (H1N1)</td>
+													<td>A/Solomon Islands/3/2006</td>
+													<td>A/New Caledonia/20/99</td>
+													<td>Solo datos parciales Solomon</td>
+													<td>Solo datos parciales Solomon</td>
+												  </tr>
+												  <tr>
+													<td>A (H3N2)</td>
+													<td>A/Wisconsin/67/2005</td>
+													<td>A/Wisconsin/67/2005</td>
+													<td>100%</td>
+													<td>100%</td>
+												  </tr>
+												  <tr>
+													<td>B</td>
+													<td>B/Ohio/1/2005</td>
+													<td>B/Malaysia/2506/2004</td>
+													<td>Solo datos parciales de Ohio</td>
+													<td>98.28%</td>
+												  </tr>
+											  </tbody>
+									</table>
+								</div>
+
+								<div class="checked-box">
+									<h3>Temporada octubre 2007 - mayo 2008</h3>
+									<table>
+											<thead align="center">
+												<tr>
+												  <th scope="col">&nbsp;&nbsp;&nbsp;Tipo de Influenza&nbsp;&nbsp;&nbsp;</th>
+												  <th scope="col">&nbsp;&nbsp;&nbsp;Subtipo de Influenza&nbsp;&nbsp;&nbsp;</th>
+												  <th scope="col">&nbsp;&nbsp;&nbsp;Cepa de influenza Vacuna&nbsp;&nbsp;&nbsp;</th>
+												  <th scope="col">&nbsp;&nbsp;&nbsp;Porcentaje de coincidencia H&nbsp;&nbsp;&nbsp;</th>
+													<th scope="col">&nbsp;&nbsp;&nbsp;Porcentaje de coincidencia N&nbsp;&nbsp;&nbsp;</th>
+												</tr>
+											  </thead>
+											  <tbody align="center">
+												  <tr>
+													<td>A (H1N1)</td>
+													<td>A/Brisbane/59/2007</td>
+													<td>A/Solomon Islands/3/2006</td>
+													<td>Solo datos parciales Solomon</td>
+													<td>-</td>
+												  </tr>
+												  <tr>
+													<td>A (H1N1)</td>
+													<td>A/Solomon Islands/3/2006</td>
+													<td>A/Solomon Islands/3/2006</td>
+													<td>100%</td>
+													<td>100%</td>
+												  </tr>
+												  <tr>
+													<td>A (H3N2)</td>
+													<td>A/Wisconsin/67/2005</td>
+													<td>A/Wisconsin/67/2005</td>
+													<td>100%</td>
+													<td>100%</td>
+												  </tr>
+												  <tr>
+													<td>A (H3N2)</td>
+													<td>A/Brisbane/10/2007</td>
+													<td>A/Wisconsin/67/2005</td>
+													<td>97.88%</td>
+													<td>98.08%</td>
+												  </tr>
+												  <tr>
+													<td>B</td>
+													<td>B/Yamagata/16/88</td>
+													<td>B/Malaysia/2506/2004</td>
+													<td>Solo datos parciales de Yamagata</td>
+													<td>94.64%</td>
+												  </tr>
+												  <tr>
+													<td>B</td>
+													<td>B/Ohio/1/2005</td>
+													<td>B/Malaysia/2506/2004</td>
+													<td>Solo datos parciales de Ohio</td>
+													<td>98.28%</td>
+												  </tr>
+												  <tr>
+													<td>B</td>
+													<td>B/Florida/4/2006</td>
+													<td>B/Malaysia/2506/2004</td>
+													<td>93.33%</td>
+													<td>95.92%</td>
+												  </tr>
+											  </tbody>
+									</table>
+								</div>
+
+								<div class="checked-box">
+									<h3>Temporada octubre 2008 - mayo 2009</h3>
+									<table>
+											<thead align="center">
+												<tr>
+												  <th scope="col">&nbsp;&nbsp;&nbsp;Tipo de Influenza&nbsp;&nbsp;&nbsp;</th>
+												  <th scope="col">&nbsp;&nbsp;&nbsp;Subtipo de Influenza&nbsp;&nbsp;&nbsp;</th>
+												  <th scope="col">&nbsp;&nbsp;&nbsp;Cepa de influenza Vacuna&nbsp;&nbsp;&nbsp;</th>
+												  <th scope="col">&nbsp;&nbsp;&nbsp;Porcentaje de coincidencia H&nbsp;&nbsp;&nbsp;</th>
+													<th scope="col">&nbsp;&nbsp;&nbsp;Porcentaje de coincidencia N&nbsp;&nbsp;&nbsp;</th>
+												</tr>
+											  </thead>
+											  <tbody align="center">
+												  <tr>
+													<td>A (H1N1)</td>
+													<td>A/Brisbane/59/2007</td>
+													<td>A/Brisbane/59/2007</td>
+													<td>100%</td>
+													<td>100%</td>
+												  </tr>
+												  <tr>
+													<td>A (H3N2)</td>
+													<td>A/Brisbane/10/2007</td>
+													<td>A/Brisbane/10/2007</td>
+													<td>100%</td>
+													<td>100%</td>
+												  </tr>
+												  <tr>
+													<td>B</td>
+													<td>B/Victoria/2/87</td>
+													<td>B/Florida/4/2006</td>
+													<td>Solo datos parciales de Victoria</td>
+													<td>Solo datos parciales de Victoria</td>
+												  </tr>
+												  <tr>
+													<td>B</td>
+													<td>B/Yamagata/16/88</td>
+													<td>B/Florida/4/2006</td>
+													<td>Solo datos parciales de Yamagata</td>
+													<td>94.64%</td>
+												  </tr>
+											  </tbody>
+									</table>
+								</div>
+
+								<div class="checked-box">
+									<h3>Temporada octubre 2009 - mayo 2010</h3>
+									<table>
+										<thead align="center">
+											<tr>
+												<th scope="col">&nbsp;&nbsp;&nbsp;Tipo de Influenza&nbsp;&nbsp;&nbsp;</th>
+												<th scope="col">&nbsp;&nbsp;&nbsp;Subtipo de Influenza&nbsp;&nbsp;&nbsp;</th>
+												<th scope="col">&nbsp;&nbsp;&nbsp;Cepa de influenza Vacuna&nbsp;&nbsp;&nbsp;</th>
+												<th scope="col">&nbsp;&nbsp;&nbsp;Porcentaje de coincidencia H&nbsp;&nbsp;&nbsp;</th>
+												<th scope="col">&nbsp;&nbsp;&nbsp;Porcentaje de coincidencia N&nbsp;&nbsp;&nbsp;</th>
+											  </tr>
+										</thead>
+										<tbody align="center">
+											<tr>
+												<td>A (H1N1)</td>
+												<td>A/Brisbane/59/2007</td>
+												<td>A/Brisbane/59/2007</td>
+												<td>100%</td>
+												<td>100%</td>
+											</tr>
+												  
+											<tr>
+											  <td>A (H1N1)</td>
+											  <td>A/California/07/2009</td>
+											  <td>A/Brisbane/59/2007</td>
+											  <td>79.15%</td>
+											  <td>81.28%</td>
+											</tr>
+											<tr>
+											  <td>A (H3N2)</td>
+											  <td>A/Brisbane/10/2007</td>
+											  <td>A/Brisbane/10/2007</td>
+											  <td>100%</td>
+											  <td>100%</td>
+											</tr>
+											<tr>
+											  <td>B</td>
+											  <td>B/Brisbane/60/2008</td>
+											  <td>B/Brisbane/60/2008</td>
+											  <td> 100% </td>
+											  <td>100%</td>
+											</tr>
+										</tbody>
+									</table>
+												
+								</div>
+
+								<div class="checked-box">
+									<h3>Temporada octubre 2010 - mayo 2011</h3>
+									<table>
+										<thead align="center">
+											<tr>
+												<th scope="col">&nbsp;&nbsp;&nbsp;Tipo de Influenza&nbsp;&nbsp;&nbsp;</th>
+												<th scope="col">&nbsp;&nbsp;&nbsp;Subtipo de Influenza&nbsp;&nbsp;&nbsp;</th>
+												<th scope="col">&nbsp;&nbsp;&nbsp;Cepa de influenza Vacuna&nbsp;&nbsp;&nbsp;</th>
+												<th scope="col">&nbsp;&nbsp;&nbsp;Porcentaje de coincidencia H&nbsp;&nbsp;&nbsp;</th>
+												<th scope="col">&nbsp;&nbsp;&nbsp;Porcentaje de coincidencia N&nbsp;&nbsp;&nbsp;</th>
+											  </tr>
+										</thead>
+										<tbody align="center">
+											<tr>
+												<td>A (H1N1)</td>
+												<td>A/California/07/2009</td>
+												<td>A/California/07/2009</td>
+												<td>100%</td>
+												<td>100%</td>
+											</tr>
+											<tr>
+											  <td>A (H3N2)</td>
+											  <td>A/Perth/16/2009</td>
+											  <td>A/Perth/16/2009</td>
+											  <td>100%</td>
+											  <td>100%</td>
+											</tr>
+											<tr>
+											  <td>B</td>
+											  <td>B/Brisbane/60/2008</td>
+											  <td>B/Brisbane/60/2008</td>
+											  <td> 100% </td>
+											  <td>100%</td>
+											</tr>
+										</tbody>
+									</table>
+												
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</main> <!-- .main-content -->
+		
+			<footer class="site-footer" data-bg-color="#edf2f4">
+				<div class="container">
+					<div class="row">
+						<h3>Integrantes</h3>
+						<div class="col-md-4">
+							<div class="widget">
+								<ul>
+									<li>Tomás Allende</li>
+									<li>Ingeniería Civil Industrial</li>
+									<li>tallende@udd.cl</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="widget">
+								<ul>
+									<li>Gonzalo Prado</li>
+									<li>Ingeniería Civil Industrial</li>
+									<li>gpradoz@udd.cl</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="widget">
+								<ul>
+									<li>María de los Ángeles Plaza de los Reyes</li>
+									<li>Ingeniería Civil Industrial</li>
+									<li>mplazadelosreyess@udd.cl</li>
+								</ul>
+							</div>
+						</div>
+					</div> <!-- .row -->
+					<p ><h3 align="center">Introducción a Ciencias · Mariela Celis - Profesora</h3></p>
+				</div> <!-- .container -->
+			</footer>
+
+		</div>
+
+		<script src="js/jquery-1.11.1.min.js"></script>
+		<script src="js/plugins.js"></script>
+		<script src="js/app.js"></script>
+		
+	</body>
+
+</html>
