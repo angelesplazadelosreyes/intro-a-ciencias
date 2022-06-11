@@ -1218,6 +1218,37 @@ form input[type="submit"], form button, form input[type="reset"] {
         color: #69acc7;
         border-bottom: 2px solid #69acc7; }
 
+    .main-navigation .menu {
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+    *zoom: 1; }
+    .main-navigation .menu:after {
+      content: " ";
+      clear: both;
+      display: block;
+      overflow: hidden;
+      height: 0; }
+
+
+
+.lista-glosario li{
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+  padding-right: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
 .mobile-navigation {
   padding: 30px;
   clear: both;
@@ -1336,6 +1367,7 @@ form input[type="submit"], form button, form input[type="reset"] {
   text-align: center;
   color: white; }
   .page-head .page-title {
+    text-shadow: black 0.1em 0.1em 0.2em;
     font-size: 60px;
     font-size: 4em;
     font-weight: 300;
