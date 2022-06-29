@@ -33,7 +33,7 @@ audio:not([controls]) {
   display: none; }
 
 html {
-  background: #fff;
+  background: rgb(255, 255, 255);
   color: #000;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%; }
@@ -60,6 +60,7 @@ h1 {
   margin: 0.67em 0; }
 
 h2 {
+  color: rgb(29, 200, 238);
   font-size: 1.5em;
   margin: 0.83em 0; }
 
@@ -215,7 +216,7 @@ html {
   font-size: 15px; }
 
 body {
-  color: #8e9ca5;
+  color: hsl(203, 7%, 51%);
   font-family: "Roboto", "Open Sans", sans-serif;
   font-weight: 300;
   line-height: 1.5; }
@@ -262,12 +263,12 @@ form input[type="submit"], form button, form input[type="reset"] {
  * Reusable Components Style
  */
 .button, form input[type="submit"], form button, form input[type="reset"] {
-  background: #e7edf1;
+  background: rgb(29, 200, 238);
   display: inline-block;
   padding: 10px 25px;
   border-radius: 5px;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
-  color: #8e9ca5;
+  color: white;
   -webkit-transition: .3s ease;
           transition: .3s ease; }
   .button.back, form input.back[type="submit"], form button.back, form input.back[type="reset"] {
@@ -275,7 +276,7 @@ form input[type="submit"], form button, form input[type="reset"] {
   .button img, form input[type="submit"] img, form button img, form input[type="reset"] img {
     margin-right: 10px; }
   .button:hover, form input[type="submit"]:hover, form button:hover, form input[type="reset"]:hover {
-    box-shadow: inset 0 0 100px #69acc7;
+    box-shadow: inset 0 0 100px rgb(128, 238, 29 );
     color: white; }
   .button.white, form input.white[type="submit"], form button.white, form input.white[type="reset"] {
     background: white; }
@@ -1155,7 +1156,7 @@ form input[type="submit"], form button, form input[type="reset"] {
 
 .header-bar {
   *zoom: 1;
-  background: white;
+  background: rgb(255, 255, 255);
   border-radius: 5px; }
   .header-bar:after {
     content: " ";
@@ -1196,7 +1197,7 @@ form input[type="submit"], form button, form input[type="reset"] {
     border: none;
     font-size: 20px;
     font-size: 1.3333333333em;
-    color: #8e9ca5;
+    color: hsl(203, 7%, 51%);
     outline: none;
     display: none;
     padding: 20px; }
@@ -1230,13 +1231,13 @@ form input[type="submit"], form button, form input[type="reset"] {
         font-weight: 400;
         padding: 32px 20px;
         display: block;
-        color: #8e9ca5;
+        color: rgb(29, 200, 238);
         -webkit-transition: .3s ease;
                 transition: .3s ease;
         border-bottom: 2px solid transparent;
         line-height: normal; }
       .main-navigation .menu .menu-item.current-menu-item a, .main-navigation .menu .menu-item:hover a {
-        color: #69acc7;
+        color: rgb(128, 238, 29 );
         border-bottom: 2px solid #69acc7; }
 
     .main-navigation .menu {
@@ -1282,7 +1283,7 @@ form input[type="submit"], form button, form input[type="reset"] {
     background: #edf2f4;
     list-style: none; }
     .mobile-navigation .menu a {
-      color: #8e9ca5;
+      color: hsl(203, 7%, 51%);
       padding: 15px 20px;
       display: block;
       text-align: center;
@@ -1397,6 +1398,26 @@ form input[type="submit"], form button, form input[type="reset"] {
     font-size: 18px;
     font-size: 1.2em; }
 
+  .page-head-d{
+    height: 100px;
+    background-color: #cccccc;
+    background-image: radial-gradient(rgb(29, 200, 238), rgb(172, 231, 244));
+    background-size: cover;
+    padding: 15px 0;
+    text-align: center;
+    color: white;
+  }
+  .page-head-d .page-title {
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-size: 40px;
+    font-size: 2em;
+    font-weight: 300;
+    margin: 0 0 10px; }
+  .page-head-d small {
+    font-size: 18px;
+    font-size: 1.2em; }
+  
+
 .fullwidth-block {
   padding: 50px 0; }
 
@@ -1407,9 +1428,10 @@ form input[type="submit"], form button, form input[type="reset"] {
   margin-bottom: 30px; }
 
 .feature {
+  background-color:rgba(175, 238, 238, 0.187);
   margin-bottom: 30px;
   text-align: center;
-  border: 1px solid #e1e8ec;
+  border: 2px solid #5db0e086;
   border-radius: 10px;
   padding: 30px;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1); }
@@ -1457,6 +1479,7 @@ form input[type="submit"], form button, form input[type="reset"] {
   text-align: center;
   color: white; }
   .cta .cta-title {
+    text-shadow: black 0.1em 0.1em 0.2em;
     font-size: 60px;
     font-size: 4em;
     font-weight: 300; }
@@ -1727,11 +1750,11 @@ figure {
   .arrow-list li {
     padding: 10px 0 10px 10px; }
     .arrow-list li a {
-      color: #8e9ca5;
+      color: hsl(203, 7%, 51%);
       -webkit-transition: .3s ease;
               transition: .3s ease; }
       .arrow-list li a:hover {
-        color: #69acc7; }
+        color: rgb(128, 238, 29 ); }
   .arrow-list.has-border li {
     border-bottom: 1px solid #edf2f4; }
     .arrow-list.has-border li:last-child {
@@ -1760,4 +1783,12 @@ figure {
 
 .lista-viruela{
   padding-left: 50px;
+}
+
+.poster{
+  max-width: 70%;
+}
+
+#presentacion{
+  text-align: center;
 }
